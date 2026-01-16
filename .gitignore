@@ -1,0 +1,19 @@
+venv/
+__pycache__/
+*.pyc
+*.mp4
+*.mp3
+*.wav
+*_autosave.json
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build outputs
+build/
+dist/
+Output/
+installer_output/
+tesseract/
+*.exe

@@ -1,0 +1,56 @@
+# Check for Administrator privileges
+if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
+    Write-Host "Please run this script as Administrator!" -ForegroundColor Red
+    Break
+}
+
+Write-Host "--- Starting Installation Process ---" -ForegroundColor Cyan
+
+# 1. Install Python 3.12
+Write-Host "`n[1/3] Installing Python 3.12..." -ForegroundColor Yellow
+try {
+    # Check if Python 3.12 is already installed to save time
+    $pythonCheck = winget list --id Python.Python.3.12
+    if ($pythonCheck -match "Python.Python.3.12") {
+        Write-Host "Python 3.12 is already installed." -ForegroundColor Green
+    } else {
+        winget install -e --id Python.Python.3.12 --scope machine --accept-package-agreements --accept-source-agreements
+        Write-Host "Python 3.12 installed successfully." -ForegroundColor Green
+    }
+} catch {
+    Write-Host "Error installing Python. Please ensure Winget is installed." -ForegroundColor Red
+}
+
+# 2. Install Tesseract OCR
+Write-Host "`n[2/3] Installing Tesseract OCR..." -ForegroundColor Yellow
+try {
+    $tesseractCheck = winget list --id UB-Mannheim.TesseractOCR
+    if ($tesseractCheck -match "UB-Mannheim.TesseractOCR") {
+        Write-Host "Tesseract OCR is already installed." -ForegroundColor Green
+    } else {
+        winget install -e --id UB-Mannheim.TesseractOCR --accept-package-agreements --accept-source-agreements
+        Write-Host "Tesseract OCR installed successfully." -ForegroundColor Green
+    }
+} catch {
+    Write-Host "Error installing Tesseract." -ForegroundColor Red
+}
+
+# 3. Refresh Environment Variables (Crucial Step)
+# This forces PowerShell to see the new 'python' and 'tesseract' commands immediately
+Write-Host "`n[-] Refreshing system PATH variables..." -ForegroundColor Cyan
+$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+
+# 4. Install Moondream Station
+Write-Host "`n[3/3] Installing moondream-station via Pip..." -ForegroundColor Yellow
+try {
+    # Ensure pip is up to date first
+    python -m pip install --upgrade pip
+    
+    # Install the requested CLI
+    pip install moondream-station
+    
+    Write-Host "`n--- Installation Complete! ---" -ForegroundColor Green
+    Write-Host "You can now run: moondream-station start" -ForegroundColor Cyan
+} catch {
+    Write-Host "Error running pip. You may need to restart your terminal if Python was just installed." -ForegroundColor Red
+}

@@ -1,0 +1,129 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:11.000
+The slide is titled "Contemplative Pedagogy for Student Well-being."  It details the event's date (Wednesday, September 28th, 2022), 10am time, and the facilitator (Christina Frasher, PhD). A small image of the University of Pittsburgh's Teaching Center logo is present.
+
+2
+00:00:36.000 --> 00:00:46.000
+The slide titled 'Session logistics' outlines four key objectives: an interactive session, posting thoughts and questions in Zoom, a camera option for possible camera use, and maintaining a feedback system.
+
+3
+00:01:16.000 --> 00:01:26.000
+The slide titled "Zoom controls" displays a video conferencing interface with options for participants, chat, and sharing a profile picture. A sidebar shows participant statistics, including the number of participants and the duration of the video.
+
+4
+00:02:01.000 --> 00:02:11.000
+The slide titled 'Workshop Objectives' outlines four key goals: Define Contemplative Pedagogy, Summarize its benefits to students' emotional well-being, and Develop a contemplative activity specific to your course.
+
+5
+00:02:14.309 --> 00:02:14.309
+This slide outlines three key objectives for a workshop: defining contemporary pedagogy, summarizing its benefits to students' emotional well-being, and developing a contemplative activity specific to the course. The slide is designed to be clear, concise, and visually appealing, emphasizing the workshop's purpose and key points.
+
+6
+00:02:14.309 --> 00:02:24.309
+A woman wearing glasses and a blue scarf is speaking. She is gesturing with her right hand. She is wearing over-ear headphones. The background is blurred, indicating a possible home or office setting.
+
+7
+00:02:54.309 --> 00:03:04.309
+A tall, white building with a pointed top is visible in the background. The building appears to be made of concrete and is surrounded by trees with vibrant orange and red leaves, suggesting an autumn setting. A paved walkway runs in front of the trees, and a person on a bicycle is visible in the distance. A lamppost with a sign is also present. The scene is bathed in bright sunlight against a clear blue sky.
+
+8
+00:03:27.569 --> 00:03:27.569
+A screenshot shows a slide from a teaching conference. The slide features a photo of a tall building with vibrant orange leaves against a clear blue sky. A person wearing headphones is visible on the right side of the slide, seemingly participating in the conference. The slide also has a blue banner at the bottom with the Teaching Center logo.
+
+9
+00:03:27.569 --> 00:03:27.569
+This slide shows a beautiful autumn scene at Columbia University, featuring a tall building surrounded by vibrant orange and yellow trees. The slide includes a photo of a woman wearing headphones, likely participating in a video conference or presentation. The slide also features the Teaching Center logo.
+
+10
+00:03:27.569 --> 00:03:37.569
+This is a slide from a presentation. The title is "Teaching Center." The slide features a picture of a park with autumn trees and a tall building in the background. A woman is speaking into a microphone. The slide also includes the Teaching Center logo and copyright information.
+
+11
+00:04:51.358 --> 00:05:01.358
+The slide titled "What is contemplative pedagogy?" explains that contemplative pedagogy is an approach to learning that encourages students to connect meaningfully to their courses and engage in deeper learning processes. It lists several forms of this approach, including meditation and mindfulness-based activities, beholding exercises, reflective writing and reading processes, compassion and gratitude-based activities, and more. The slide also features an audio description by Christina Sheer.
+
+12
+00:06:53.435 --> 00:06:53.435
+The slide title is "What are some common teaching goals?" and summarizes that common teaching goals are discussed. A video call is featured with a speaker, Christina (she/her), discussing teaching goals. The date and time are displayed as 9/28/2022.
+
+13
+00:06:53.435 --> 00:07:03.435
+The slide titled 'Goals' presents a question about common teaching goals and asks for examples. The slide includes a timestamp of 9/28/2022 and mentions a pie chart showing budget breakdown.
+
+14
+00:09:01.990 --> 00:09:01.990
+A woman is speaking in a video call, wearing a purple scarf and glasses. She is positioned on the right side of the screen, facing the camera. The screen displays the question "What are some common teaching goals? What are your teaching goals?" The date "9/28/2022" is visible in the bottom right corner. The University Center for Teaching and Learning logo is visible in the top left corner.
+
+15
+00:09:01.990 --> 00:09:01.990
+A blue background with white text and a question about common teaching goals.  The question is posed in a way that suggests it is being asked by a student or instructor.  The text is in a sans-serif font and appears to be in a modern style.  The screen is blank.
+
+16
+00:09:01.990 --> 00:09:11.990
+A woman wearing glasses and a blue scarf is speaking into a microphone. She is looking directly at the camera with a serious expression. The background is blurred, indicating a studio or conference setting.
+
+17
+00:09:23.435 --> 00:09:31.990
+The slide titled "The Tree of Contemplative Practices" features a tree diagram illustrating various contemplative practices such as journaling, meditation, and silence. The diagram includes labels for each practice and includes an audio description or accompanying video.
+
+18
+00:09:31.990 --> 00:09:41.990
+This slide illustrates a tree of contemporary practices, highlighting various practices that contribute to personal and collective well-being. It features nine branches, each representing a different practice: contemplation, movement, creativity, movement, meditation, gratitude, generative stillness, ritual/cyclical, awareness, storytelling, dialogue, and establishing a sacred personal space. The tree is rooted in meditation and connection, symbolizing a holistic approach to personal growth. The slide also includes the website "CONTEMPLATIVEMIND.ORG" at the bottom.
+
+19
+00:16:34.000 --> 00:16:44.000
+The slide titled "Contemplative Practice and Student Learning" outlines two key practices: centering in the present moment and less judgement. Reflection centers the student's experience and creativity. Metacognition and deep learning are emphasized as self-directed learners and growth mindset, respectively.
+
+20
+00:19:07.000 --> 00:19:07.507
+Slide text: Ids self-regulatory
+
+Key points: 
+- Increases authenticity
+- Builds self-regulatory skills
+- Increases relational dynamics
+- Honors subjective experience
+- Supports growth of empathic responses
+- Increases our ability for self-compassion
+
+21
+00:19:07.507 --> 00:19:17.507
+The slide titled "Contemplative Practice and Student Well-being" outlines four key practices: slowing down, centering our minds and bodies, allowing the full self to be present, and awareness of our emotional responses. Connecting to student well-being includes increased authenticity, building self-regulatory skills, increased relational dynamics, and honoring subjective experience.
+
+22
+00:21:22.625 --> 00:21:32.625
+The slide titled "The Tree of Contemplative Practices" features a tree diagram illustrating various contemplative practices such as journaling, meditation, and silence. The diagram includes labels for each practice and includes images related to each practice.
+
+23
+00:22:16.105 --> 00:22:26.105
+The slide titled "Teaching Goal: Foster Connection and Compassion" outlines four key objectives: Loving-kindness/Metta meditation, Contemplative art-making practice, Beholding practice, and singing/visualization. The chart visually represents these objectives, highlighting the interconnectedness of these practices in fostering connection and compassion.
+
+24
+00:26:58.000 --> 00:27:08.000
+The slide titled 'Teaching Goal: Alleviate apprehension/support self-regulation during high-stake assignments' outlines four key objectives: deep breathing or body awareness practice, guided imagery, and a meditation on quieting the mind.
+
+25
+00:32:09.171 --> 00:32:19.171
+This is a presentation slide titled "Implementing an Activity: Pre-plan the experience." The slide lists three bullet points: Consider your intentions and teaching goals, Logistics, and Practice the practice. The presenter is Christina (she/her), and a video call is visible in the background. The slide is dated September 28, 2022.
+
+26
+00:40:44.024 --> 00:40:44.024
+This is a presentation slide titled "Implementing an Activity: What to offer during the experience." The slide lists three key points: share the cultural background, teaching and learning goals, and allow students to opt-out. The slide features a blue header, a white background, and a slide preview image of a woman wearing headphones. The slide is dated September 28, 2022.
+
+27
+00:40:44.024 --> 00:40:44.024
+This slide is titled "Implementing an Activity: What to offer during the experience" and provides three key points: share the cultural background, teaching and learning goals, and allow students to opt-out. The slide includes a slide image and text content. The slide is dated September 28, 2022.
+
+28
+00:40:44.024 --> 00:40:44.024
+This slide is titled "Implementing an Activity: What to offer during the experience" and provides three key points: sharing the cultural background, teaching and learning goals, and allowing students to opt-out. The slide includes a screen capture of a woman speaking, identified as Christina (she/her).
+
+29
+00:40:44.024 --> 00:40:44.024
+This slide is about a presentation on implementing an activity. The slide lists three key points: sharing the cultural background, teaching and learning goals, and allowing students to opt-out. The slide is designed to be clear, concise, and visually appealing, focusing on the main points and avoiding unnecessary details.
+
+30
+00:40:44.024 --> 00:41:04.424
+This slide is titled "Implementing an Activity: What to offer during the experience" and provides three key points: sharing the cultural background, teaching and learning goals, and allowing students to opt-out. The slide includes a presentation slide and a video of a woman presenting. The slide is dated September 28, 2022.

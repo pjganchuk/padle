@@ -1,0 +1,136 @@
+# PADLE - Panopto Audio Descriptions List Editor
+# Requirements for cross-platform use (Windows, macOS, Linux)
+#
+# Install with: pip install -r requirements.txt
+
+# =============================================================================
+# CORE DEPENDENCIES
+# =============================================================================
+
+# Video processing
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# =============================================================================
+# AI VISION (Local Moondream Inference)
+# =============================================================================
+
+# Hugging Face Transformers for model loading
+# IMPORTANT: Must stay below 4.50 due to breaking change in GenerationMixin
+transformers>=4.44.0,<4.50.0
+
+# PyTorch - The base will auto-select CPU/CUDA
+# For GPU support, install the appropriate version:
+#   NVIDIA: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+#   CPU only: pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Accelerate for efficient model loading
+accelerate>=0.27.0
+
+# SafeTensors for secure model weight loading
+safetensors>=0.4.0
+
+# Hugging Face Hub for model downloading
+huggingface-hub>=0.20.0
+
+# Einops for tensor operations (required by Moondream)
+einops>=0.7.0
+
+# =============================================================================
+# OCR & TEXT PROCESSING
+# =============================================================================
+
+# OCR
+pytesseract>=0.3.10
+
+# =============================================================================
+# AUDIO & VIDEO
+# =============================================================================
+
+# Audio playback (video preview audio)
+python-vlc>=3.0.0
+
+# Audio export (TTS audio track generation)
+pydub>=0.25.1
+
+# Text-to-Speech
+piper-tts>=1.2.0
+
+# =============================================================================
+# UI & SYSTEM
+# =============================================================================
+
+# Multi-monitor support (optional but recommended)
+screeninfo>=0.8.1
+
+# =============================================================================
+# SYSTEM DEPENDENCIES (must be installed separately)
+# =============================================================================
+#
+# WINDOWS:
+# --------
+# 1. Tesseract OCR:
+#    - Download from: https://github.com/UB-Mannheim/tesseract/wiki
+#    - Add installation directory to PATH (e.g., C:\Program Files\Tesseract-OCR)
+#
+# 2. VLC Media Player:
+#    - Download from: https://www.videolan.org/vlc/
+#    - Required for video audio playback
+#
+# 3. FFmpeg (for MP3 export):
+#    - Download from: https://ffmpeg.org/download.html
+#    - Add bin folder to PATH
+#    - Or use: winget install ffmpeg
+#
+# MACOS:
+# ------
+# brew install tesseract ffmpeg
+# Download VLC from https://www.videolan.org/vlc/
+#
+# LINUX (Ubuntu/Debian):
+# ----------------------
+# sudo apt update
+# sudo apt install tesseract-ocr vlc ffmpeg python3-tk
+#
+# LINUX (Fedora):
+# ---------------
+# sudo dnf install tesseract vlc ffmpeg python3-tkinter
+#
+# =============================================================================
+# PIPER TTS VOICES
+# =============================================================================
+#
+# Download voice models using the included script:
+#   python download_voices.py --us-only --quality medium
+#
+# Or download manually from:
+#   https://huggingface.co/rhasspy/piper-voices
+#
+# Voice files should be placed in:
+#   Windows: %LOCALAPPDATA%\piper-voices
+#   macOS/Linux: ~/piper-voices
+#
+# =============================================================================
+# MOONDREAM AI MODEL
+# =============================================================================
+#
+# The Moondream vision model (~1.7GB) will be automatically downloaded
+# on first run and cached in:
+#   Windows: %USERPROFILE%\.cache\huggingface
+#   macOS/Linux: ~/.cache/huggingface
+#
+# First launch may take several minutes to download the model.
+# Subsequent launches will load from cache (30-60 seconds).
+#
+# GPU SUPPORT:
+# ------------
+# For NVIDIA GPU acceleration, install PyTorch with CUDA:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+#
+# For Apple Silicon (M1/M2/M3), PyTorch MPS is used automatically.
+#
+# CPU-only systems will work but inference will be slower.
+#
